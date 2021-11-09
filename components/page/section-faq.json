@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_page_section_faqs",
+  "info": {
+    "name": "sectionFaq",
+    "icon": "question-circle"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "questons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.questons",
+      "required": true,
+      "max": 2
+    }
+  }
+}
